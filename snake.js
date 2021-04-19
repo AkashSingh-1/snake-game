@@ -70,7 +70,7 @@ function addSnake(){
 
 export function outsideTheGrid(position){
     // console.log(position.x)
-    if(position.x>=21||position.x<=0 || position.y>=21||position.y<=0){
+    if(position.x>21||position.x<=0 || position.y>21||position.y<=0){
         console.log('gameover')
         return true
     }
