@@ -1,0 +1,102 @@
+body{
+    margin:0; 
+    background: black;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius:10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+   left:100px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top:50px;
+    left:0px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content span {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content span:hover {
+      background-color: #ddd;
+      cursor: pointer;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    }
+
+.btn{
+     background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:150px
+
+    }
+
+    
+.container{
+    background:black;
+    width:auto;
+    height:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:20px
+}
+#top{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   height:100px;
+    background:rgba(121, 67, 67, 0.5);
+   
+   
+}
+#score{
+    font-size:30px;
+    font-family: Arial,Arial, Helvetica, sans-serif;
+    color: cornsilk;
+}
+#game-board{
+    width:500px;
+    height:500px;
+    background:#ccc;
+    display:grid;
+    grid-template-columns: repeat(21,1fr);
+    grid-template-rows: repeat(21,1fr);
+}
+.snake{
+    background: blue;
+    border:0.25vmin solid black
+}
+.food{
+    background: red;;
+}
