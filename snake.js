@@ -91,7 +91,7 @@ export function snakeIntersect(position){
 }
 
 document.getElementById("easy").addEventListener('click',(e)=>{
-    SNAKE_SPEED=1
+    SNAKE_SPEED=3
     console.log("easy")
     document.querySelector('.btn').innerHTML="easy"
 })
